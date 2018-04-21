@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace Contoso.Controllers
 {
-    public class StudentsController : Controller
+    public class StudentController : Controller
     {
         private SchoolContext db = new SchoolContext();
 

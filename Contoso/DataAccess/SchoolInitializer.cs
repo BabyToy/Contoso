@@ -1,9 +1,8 @@
-﻿using Contoso.DataAccess;
-using Contoso.Models;
+﻿using Contoso.Models;
 using System;
 using System.Collections.Generic;
 
-namespace ContosoUniversity.DAL
+namespace Contoso.DataAccess
 {
     public class SchoolInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<SchoolContext>
     {
